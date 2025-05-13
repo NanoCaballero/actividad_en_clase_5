@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "multiplicar.h"
 
-TEST(SubTest, HandlesPositiveInput)
+TEST(MultTest, HandlesPositiveInput)
 {
 int resta = mult(5, 2);
 
