@@ -3,7 +3,6 @@
 
 TEST(MultTest, HandlesPositiveInput)
 {
-int mult = mult(5, 2);
 
-EXPECT_EQ(mult, 10);
+EXPECT_EQ(mult(5,2), 10);
 }
