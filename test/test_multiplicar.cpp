@@ -3,7 +3,7 @@
 
 TEST(MultTest, HandlesPositiveInput)
 {
-int resta = mult(5, 2);
+int mult = mult(5, 2);
 
 EXPECT_EQ(mult, 10);
 }
